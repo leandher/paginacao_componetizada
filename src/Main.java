@@ -14,9 +14,9 @@ public class Main {
 		pessoas.add(p3);
 		
 		Pageable pag = new Pageable();
-		pag.setItens((List<Object>)(List<?>)pessoas);
+		pag.setObjects((List<Object>)(List<?>)pessoas);
 		
-		for(Pessoa p : (List<Pessoa>)(List<?>)pag.getItens()){
+		for(Pessoa p : (List<Pessoa>)(List<?>)pag.getObjects()){
 			System.out.println(p.getNome()+" "+ p.getIdade());
 		}
 	}

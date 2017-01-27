@@ -2,31 +2,33 @@ import java.util.List;
 
 
 public class Pageable {
-	private List<Object> itens;
-	private Integer pageAtual;
-	private Integer totalProdutos;
+	private List<Object> objects;
+	private Integer currentPage;
+	private Integer allRows;
 	
-	public List<Object> getItens() {
-		return itens;
+	public List<Object> getObjects() {
+		return objects;
 	}
 	
-	public void setItens(List<Object> itens) {
-		this.itens = itens;
+	public void setObjects(List<Object> objects) {
+		this.objects = objects;
 	}
 	
-	public Integer getPageAtual() {
-		return pageAtual;
+	public Integer getCurrentPage() {
+		return currentPage;
 	}
 	
-	public void setPageAtual(Integer pageAtual) {
-		this.pageAtual = pageAtual;
+	public void setCurrentPage(Integer currentPage) {
+		this.currentPage = currentPage;
 	}
 	
-	public Integer getTotalProdutos() {
-		return totalProdutos;
+	public Integer getAllRows() {
+		return allRows;
 	}
 	
-	public void setTotalProdutos(Integer totalProdutos) {
-		this.totalProdutos = totalProdutos;
+	public void setAllRows(Integer allRows) {
+		this.allRows = allRows;
 	}
+	
+	
 }
