@@ -1,10 +1,12 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Base64;
+
+import util.StringHash;
+
 
 public class Main {
 	
 	public static void main(String[] args) {
-		Pessoa p1 = new Pessoa(1, "aaa", 12);
+		/*Pessoa p1 = new Pessoa(1, "aaa", 12);
 		Pessoa p2 = new Pessoa(2, "bbb", 13);
 		Pessoa p3 = new Pessoa(3, "ccc", 14);
 		
@@ -18,7 +20,12 @@ public class Main {
 		
 		for(Pessoa p : (List<Pessoa>)(List<?>)pag.getObjects()){
 			System.out.println(p.getNome()+" "+ p.getIdade());
-		}
+		}*/
+		
+		String senha = new StringHash().encode("leandher");
+		System.out.println(senha);
+		byte[] decodedBytes = Base64.getDecoder().decode(senha);
+		System.err.println(new String(decodedBytes));
 	}
 
 }
