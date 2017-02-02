@@ -1,3 +1,4 @@
+package paginacao.entity;
 import java.util.List;
 
 

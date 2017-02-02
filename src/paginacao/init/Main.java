@@ -1,6 +1,7 @@
+package paginacao.init;
 import java.util.Base64;
 
-import util.StringHash;
+import paginacao.util.StringHash;
 
 
 public class Main {

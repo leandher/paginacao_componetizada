@@ -1,4 +1,4 @@
-package util;
+package paginacao.util;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

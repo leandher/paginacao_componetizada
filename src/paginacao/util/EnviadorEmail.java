@@ -1,4 +1,4 @@
-package util;
+package paginacao.util;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

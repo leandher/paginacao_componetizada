@@ -1,3 +1,4 @@
+package paginacao.entity;
 
 public class Pessoa {
 	private Integer id;
