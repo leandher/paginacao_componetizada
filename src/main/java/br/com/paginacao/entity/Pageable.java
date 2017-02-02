@@ -1,4 +1,4 @@
-package paginacao.entity;
+package main.java.br.com.paginacao.entity;
 import java.util.List;
 
 

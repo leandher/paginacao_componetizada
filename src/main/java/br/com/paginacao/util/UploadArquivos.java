@@ -1,4 +1,4 @@
-package paginacao.util;
+package main.java.br.com.paginacao.util;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.xml.bind.DatatypeConverter;
 
-import org.apache.commons.fileupload.FileItem;
+import org.apache.tomcat.util.http.fileupload.FileItem;
 import org.springframework.web.multipart.MultipartFile;
 
 public class UploadArquivos {
