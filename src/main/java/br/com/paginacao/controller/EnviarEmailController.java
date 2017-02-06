@@ -1,4 +1,4 @@
-package main.java.br.com.paginacao.controller;
+package br.com.paginacao.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import main.java.br.com.paginacao.util.EnviadorEmail;
+import br.com.paginacao.util.EnviadorEmail;
 
 @CrossOrigin("*")
 @RequestMapping("/enviar-email")
@@ -20,6 +20,7 @@ public class EnviarEmailController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ResponseEntity<HttpStatus> send(){
 		sender.enviarEmailAtivacao("Leandher", "leandher_bessa@hotmail.com", "teste", "teste");
+		System.out.println("Deu certo");
 		return new ResponseEntity<HttpStatus>(HttpStatus.OK);
 	}
 }

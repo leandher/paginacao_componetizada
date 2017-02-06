@@ -1,4 +1,4 @@
-package main.java.br.com.paginacao.util;
+package br.com.paginacao.util;
 
 import java.security.SecureRandom;
 import java.util.Base64;

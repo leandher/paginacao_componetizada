@@ -1,4 +1,4 @@
-package main.java.br.com.paginacao.util;
+package br.com.paginacao.util;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package main.java.br.com.paginacao.entity;
+package br.com.paginacao.entity;
 
 public class Pessoa {
 	private Integer id;
